@@ -34,8 +34,7 @@ print("\nData types:\n", df.dtypes)
 # Todo: Handle outliers in 'charges' (top 1%) -remove values above 99th percentile
 
 
-# Optional practice: Convert categorical variables usig one-hot encoding
-# Additional data cleaning steps that can be applied:
+# Optional practice: Convert categorical variables usig embedding
 # - Normalize or standardize numerical features (e.g., age, bmi, charges) for certain models.
 # - Detect and handle duplicate rows if present.
 # - Bin continuous variables (e.g., age groups, bmi categories) for feature engineering.
