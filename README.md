@@ -30,6 +30,7 @@ project/
 │   ├── 1_EDA.ipynb          # Exploratory Analysis
 │   ├── 2_Statistical_Analysis.ipynb  # Hypothesis Testing
 │   └── 3_Pricing_Model.ipynb # Predictive Modeling
+│   └── 4_feature_importance_analysis.ipynb # analysis feature contribution and determine threshold
 ├── reports/                 # Business deliverables
 │   ├── cost_drivers.pptx    # Summary deck
 │   └── high_risk_users.csv  # Top 10% high-cost users
@@ -76,8 +77,10 @@ project/
 
 ### Module 7-8: Business Application (Required)  
 1. **High-Risk User Identification**  
-   - Define rules (e.g., Age>50 + BMI>30 + Smoker)  
+   - Determine rules using notebooks/4_feature_importance_analysis.ipynb (e.g., Age>50 + BMI>30 + Smoker)  
+   - Identify high risk users.
    - Export top 10% high-cost users  
+   - *Deliverable: `src/high_risk_identification.py`*  
 
 2. **Pricing Simulator**  
    - Build interactive tool with Jupyter Widgets:  
@@ -86,7 +89,7 @@ project/
      def quote_price(age, bmi, smoker):
          return base_price * risk_factor
      ```
-   - *Deliverable: `reports/pricing_simulator.ipynb`*  
+   - *Deliverable: `src/pricing_simulator.py`*  
 
 ## 🏆 Grading Rubric  
 | Module | Criteria | Weight |
