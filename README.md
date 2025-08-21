@@ -10,7 +10,6 @@ Analyze medical cost data to develop data-driven insurance pricing strategies. S
 **Keywords**: ANOVA, Linear Regression, Insurance Pricing, Health Risk Assessment  
 **Dataset**: [Kaggle Medical Cost Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)  
 
-## 🎯 Learning Objectives  
 ### Technical Skills  
 - ✅ Master ANOVA and Tukey HSD post-hoc tests  
 - ✅ Build cost prediction models (Linear Regression/Decision Trees)  
