@@ -38,9 +38,8 @@ project/
     ├── data_cleaning.py     # Data preprocessing
     └── pricing_simulator.py # Interactive calculator
 ```
-
-## 🧩 Student Tasks  
-### Module 1-2: Data Preparation (Required)  
+  
+### Module 1-2: Data Preparation  
 1. **Data Cleaning**  
    - Handle missing BMI values (median imputation)  
    - Remove cost outliers (>99th percentile)  
@@ -51,7 +50,7 @@ project/
    - Generate feature correlation heatmap  
    - *Deliverable: `notebooks/1_EDA.ipynb`*  
 
-### Module 3-4: Statistical Analysis (Required)  
+### Module 3-4: Statistical Analysis 
 1. **Hypothesis Testing**  
    - ANOVA: Region impact on costs (report F-value/p-value)  
    - T-test: Smoker vs non-smoker cost difference  
@@ -66,7 +65,7 @@ project/
    - Tukey HSD to identify regional pairwise differences  
    - *Deliverable: `notebooks/2_Statistical_Analysis.ipynb`*  
 
-### Module 5-6: Modeling (Required)  
+### Module 5-6: Modeling
 1. **Predictive Modeling**  
    - Linear regression (target: `charges`)  
    - Success criteria: R² > 0.75, VIF < 5  
@@ -75,7 +74,7 @@ project/
    - Translate coefficients (e.g., "Smoking adds $10,000/year")  
    - *Deliverable: `notebooks/3_Pricing_Model.ipynb`*  
 
-### Module 7-8: Business Application (Required)  
+### Module 7-8: Business Application  
 1. **High-Risk User Identification**  
    - Determine rules using notebooks/4_feature_importance_analysis.ipynb (e.g., Age>50 + BMI>30 + Smoker)  
    - Identify high risk users.
@@ -91,14 +90,6 @@ project/
      ```
    - *Deliverable: `src/pricing_simulator.py`*  
 
-## 🏆 Grading Rubric  
-| Module | Criteria | Weight |
-|--------|----------|--------|
-| Data Cleaning | Missing/outlier handling | 15% |
-| Statistical Tests | Correct ANOVA/Tukey HSD implementation | 25% |
-| Modeling | Model performance & interpretability | 20% |
-| Business Application | Pricing strategy feasibility | 30% |
-| Code Quality | Readability & reusability | 10% |
 
 ## 💡 Resources  
 1. [Statsmodels ANOVA Docs](https://www.statsmodels.org/stable/anova.html)  
