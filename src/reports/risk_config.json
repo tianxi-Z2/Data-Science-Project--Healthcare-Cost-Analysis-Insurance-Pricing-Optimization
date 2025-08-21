@@ -1,0 +1,14 @@
+{
+  "age": {
+    "threshold": 44.5,
+    "charge_multiplier": 1.5
+  },
+  "bmi": {
+    "threshold": 30,
+    "charge_multiplier": 1.2
+  },
+  "smoker": {
+    "threshold": 1,
+    "charge_multiplier": 2.5
+  }
+}

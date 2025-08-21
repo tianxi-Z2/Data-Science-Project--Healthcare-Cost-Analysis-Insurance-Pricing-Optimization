@@ -1,0 +1,2 @@
+age,sex,bmi,children,smoker,region,charges,risk_score
+62,female,26.3,0,1,southeast,27808.73,0.8515357142857143
